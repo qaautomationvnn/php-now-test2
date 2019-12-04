@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "file.xyz", "use": "@juicyfx/pure@canary" }
+  ]
+}
