@@ -1,6 +1,7 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "file.xyz", "use": "@juicyfx/pure@canary" }
-  ]
+  "functions": {
+    "api/*.php": {
+      "runtime": "now-php@0.0.7"
+    }
+  }
 }
